@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.blindsfactory.ca/sitemap.xml
-
+Sitemap: https://blindsfactory.ca/sitemap.xml
