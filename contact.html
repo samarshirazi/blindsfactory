@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact | Blinds Factory</title>
+    <meta name="description" content="Request a free in-home consultation and quote for custom blinds and shades in the GTA." />
+    <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container row between center">
+        <a class="brand" href="/"><img src="/assets/images/logo.svg" alt="Blinds Factory" width="132" height="28" /></a>
+        <nav class="nav" aria-label="Primary">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">Menu</button>
+          <ul id="nav-menu" class="nav-menu">
+            <li><a href="/products/">Products</a></li>
+            <li><a href="/gallery.html">Gallery</a></li>
+            <li><a href="/service-areas.html">Service Areas</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li class="cta active"><a aria-current="page" href="/contact.html">Free Quote</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="content">
+      <div class="container narrow">
+        <h1>Request a Free Quote</h1>
+        <p class="lead">Share a few details and we’ll get back to you shortly.</p>
+        <form class="form" method="post" action="mailto:hello@blindsfactory.ca" enctype="text/plain">
+          <div class="grid-2">
+            <label>Full Name<input required name="name" autocomplete="name" /></label>
+            <label>Phone<input required name="phone" autocomplete="tel" /></label>
+          </div>
+          <label>Email<input required type="email" name="email" autocomplete="email" /></label>
+          <label>City<input name="city" autocomplete="address-level2" /></label>
+          <label>What are you interested in?
+            <select name="interest">
+              <option>Roller Shades</option>
+              <option>Zebra Shades</option>
+              <option>Shutters</option>
+              <option>Motorized</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>Details<textarea name="details" rows="5" placeholder="Window count, rough sizes, room types, timing…"></textarea></label>
+          <div class="actions">
+            <button class="btn primary" type="submit">Send Request</button>
+            <a class="btn ghost" href="tel:+10000000000">Call Instead</a>
+          </div>
+          <p class="small">Prefer email? Write to <a href="mailto:hello@blindsfactory.ca">hello@blindsfactory.ca</a>.</p>
+        </form>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container row between top">
+        <div><img src="/assets/images/logo.svg" alt="Blinds Factory" width="132" height="28" /><p class="small">© <span id="year"></span> Blinds Factory</p></div>
+        <div><h4>Contact</h4><ul class="list"><li><a href="tel:+10000000000">+1 (000) 000‑0000</a></li><li><a href="mailto:hello@blindsfactory.ca">hello@blindsfactory.ca</a></li></ul></div>
+      </div>
+      <script src="/assets/js/main.js" defer></script>
+    </footer>
+  </body>
+  </html>
+
